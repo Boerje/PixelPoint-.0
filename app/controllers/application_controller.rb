@@ -1,7 +1,3 @@
 class ApplicationController < ActionController::Base
-  def home
-  end
-
-  def contact
-  end
+  protect_from_forgery
 end
